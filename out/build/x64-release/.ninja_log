@@ -1,6 +1,0 @@
-# ninja log v5
-0	327	7490448000276236	A:/Projects/studying/SSLab/lib/langs/lang.c	26b4d695c10cd269
-0	327	7490448000276236	A:/Projects/studying/SSLab/lib/langs/lang.h	26b4d695c10cd269
-327	538	7490448002730064	CMakeFiles/SSLab.dir/src/main.c.obj	a303992c09979559
-330	546	7490448002790059	CMakeFiles/SSLab.dir/lib/langs/lang.c.obj	8d0a2cef35ee1836
-546	633	7490448003400060	SSLab.exe	f277e362726c8472

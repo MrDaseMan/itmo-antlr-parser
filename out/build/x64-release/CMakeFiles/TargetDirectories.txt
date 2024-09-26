@@ -1,6 +1,0 @@
-A:/Projects/studying/SSLab/out/build/x64-release/CMakeFiles/GenerateParserFiles.dir
-A:/Projects/studying/SSLab/out/build/x64-release/CMakeFiles/SSLab.dir
-A:/Projects/studying/SSLab/out/build/x64-release/CMakeFiles/dev.dir
-A:/Projects/studying/SSLab/out/build/x64-release/CMakeFiles/release.dir
-A:/Projects/studying/SSLab/out/build/x64-release/CMakeFiles/edit_cache.dir
-A:/Projects/studying/SSLab/out/build/x64-release/CMakeFiles/rebuild_cache.dir

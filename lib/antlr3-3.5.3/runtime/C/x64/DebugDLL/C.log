@@ -1,0 +1,57 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props(24,5): warning MSB4211: Свойству "MsvcAnalysisPluginPath" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (33,5)".
+  antlr3baserecognizer.c
+  antlr3basetree.c
+  antlr3basetreeadaptor.c
+  antlr3bitset.c
+  antlr3collections.c
+A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3collections.c(1932,50): warning C4100: key: неиспользованный формальный параметр
+  antlr3commontoken.c
+  antlr3commontree.c
+  antlr3commontreeadaptor.c
+  antlr3commontreenodestream.c
+  antlr3convertutf.c
+  antlr3cyclicdfa.c
+  antlr3debughandlers.c
+  antlr3encodings.c
+  antlr3exception.c
+  antlr3filestream.c
+  antlr3inputstream.c
+  antlr3intstream.c
+  antlr3lexer.c
+  antlr3parser.c
+  antlr3rewritestreams.c
+  Создание кода...
+  Компиляция...
+  antlr3string.c
+  antlr3tokenstream.c
+  antlr3treeparser.c
+  Создание кода...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1389,5): warning MSB8012: TargetPath(A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\x64\DebugDLL\C.dll) не соответствует значению свойства выходного файла (A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\x64\DebugDLL\antlr3c64d.dll) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1391,5): warning MSB8012: TargetName(C) не соответствует значению свойства выходного файла (antlr3c64d) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+  Microsoft (R) Incremental Linker Version 14.37.32822.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  "/OUT:x64\DebugDLL\antlr3c64d.dll" "/VERSION:3.1.1" /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:x64\DebugDLL\C.pdb" /TLBID:1 /DYNAMICBASE:NO "/IMPLIB:A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\x64\DebugDLL\C_dll.lib" /MACHINE:X64 /DLL x64\DebugDLL\antlr3baserecognizer.obj 
+  x64\DebugDLL\antlr3basetree.obj 
+  x64\DebugDLL\antlr3basetreeadaptor.obj 
+  x64\DebugDLL\antlr3bitset.obj 
+  x64\DebugDLL\antlr3collections.obj 
+  x64\DebugDLL\antlr3commontoken.obj 
+  x64\DebugDLL\antlr3commontree.obj 
+  x64\DebugDLL\antlr3commontreeadaptor.obj 
+  x64\DebugDLL\antlr3commontreenodestream.obj 
+  x64\DebugDLL\antlr3convertutf.obj 
+  x64\DebugDLL\antlr3cyclicdfa.obj 
+  x64\DebugDLL\antlr3debughandlers.obj 
+  x64\DebugDLL\antlr3encodings.obj 
+  x64\DebugDLL\antlr3exception.obj 
+  x64\DebugDLL\antlr3filestream.obj 
+  x64\DebugDLL\antlr3inputstream.obj 
+  x64\DebugDLL\antlr3intstream.obj 
+  x64\DebugDLL\antlr3lexer.obj 
+  x64\DebugDLL\antlr3parser.obj 
+  x64\DebugDLL\antlr3rewritestreams.obj 
+  x64\DebugDLL\antlr3string.obj 
+  x64\DebugDLL\antlr3tokenstream.obj 
+  x64\DebugDLL\antlr3treeparser.obj 
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1134,5): error MSB6006: "link.exe" завершилась с кодом 1117.
+LINK : fatal error LNK1117: синтаксическая ошибка в параметре "VERSION:3.1.1"

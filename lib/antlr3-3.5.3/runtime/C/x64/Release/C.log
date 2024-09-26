@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props(24,5): warning MSB4211: Свойству "MsvcAnalysisPluginPath" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (33,5)".
+  antlr3baserecognizer.c
+  antlr3collections.c
+A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3collections.c(1932,50): error C2220: следующее предупреждение рассматривается как ошибка
+A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3collections.c(1932,50): warning C4100: key: неиспользованный формальный параметр
+  antlr3commontoken.c

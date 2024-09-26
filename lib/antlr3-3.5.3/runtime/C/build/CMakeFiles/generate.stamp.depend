@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/CMakeLists.txt
+A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/CMakeFiles/3.30.3/CMakeCCompiler.cmake
+A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake
+A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/CMakeFiles/3.30.3/CMakeRCCompiler.cmake
+A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/CMakeFiles/3.30.3/CMakeSystem.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake
+A:/SDK/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake

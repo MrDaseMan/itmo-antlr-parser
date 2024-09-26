@@ -1,0 +1,10 @@
+^A:\PROJECTS\STUDYING\SSLAB\LIB\ANTLR3-3.5.3\RUNTIME\C\BUILD\CMAKEFILES\AC153A1FF09AAC7C2693D6387268E288\GENERATE.STAMP.RULE
+setlocal
+A:\SDK\CMake\bin\cmake.exe -SA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C -BA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/ANTLR_C_Runtime.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

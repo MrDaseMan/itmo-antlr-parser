@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9DEA0B96-0007-303E-A009-AACAA4402CCB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>antlr3c</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">antlr3c.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">antlr3c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">antlr3c.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">antlr3c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">antlr3c.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">antlr3c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">antlr3c.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">antlr3c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\CmakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+A:\SDK\CMake\bin\cmake.exe -SA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C -BA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build --check-stamp-file A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeSystem.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+A:\SDK\CMake\bin\cmake.exe -SA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C -BA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build --check-stamp-file A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeSystem.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+A:\SDK\CMake\bin\cmake.exe -SA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C -BA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build --check-stamp-file A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeSystem.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+A:\SDK\CMake\bin\cmake.exe -SA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C -BA:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build --check-stamp-file A:/Projects/studying/SSLab/lib/antlr3-3.5.3/runtime/C/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\3.30.3\CMakeSystem.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;A:\SDK\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3baserecognizer.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3basetree.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3basetreeadaptor.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3bitset.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3collections.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3commontoken.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3commontree.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3commontreeadaptor.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3commontreenodestream.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3convertutf.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3cyclicdfa.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3debughandlers.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3encodings.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3exception.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3filestream.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3inputstream.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3intstream.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3lexer.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3parser.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3rewritestreams.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3string.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3tokenstream.c" />
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\src\antlr3treeparser.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="A:\Projects\studying\SSLab\lib\antlr3-3.5.3\runtime\C\build\ZERO_CHECK.vcxproj">
+      <Project>{34ECD146-FDAF-30C7-895C-BAAB3E0FE159}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

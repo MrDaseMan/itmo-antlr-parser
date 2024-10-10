@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="A:\Projects\studying\SSLab\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A:\Projects\studying\SSLab\lib\langs\lang.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A:\Projects\studying\SSLab\lib\langs\lang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="A:\Projects\studying\SSLab\build\CMakeFiles\fb81a8fd2ade60573bc635b2f12a76f9\lang.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\Projects\studying\SSLab\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0C64C0B-EF01-3A7E-BAA7-121A3E9F087B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C07FAA1D-CC36-33FD-9402-B2440020E2D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7D804A59-A9DC-3C3B-A5CE-1451A402E60B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

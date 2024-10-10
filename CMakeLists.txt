@@ -35,12 +35,13 @@ set(GENERATED_FILES
 # Add a custom command to run the ANTLR tool
 add_custom_command(
     OUTPUT ${GENERATED_FILES}
-    COMMAND java -jar ${CMAKE_CURRENT_SOURCE_DIR}/antlr/antlr-3.5.3-complete.jar -language C -o ${CMAKE_SOURCE_DIR}/lib/langs ${CMAKE_SOURCE_DIR}/tests/lang.g
+    COMMAND java -jar ${CMAKE_CURRENT_SOURCE_DIR}/antlr/antlr-3.5.3-complete.jar -o ${CMAKE_SOURCE_DIR}/lib/langs ${CMAKE_SOURCE_DIR}/tests/lang.g
     DEPENDS ${CMAKE_SOURCE_DIR}/tests/lang.g
     COMMENT "Running ANTLR to generate lexer and parser"
 )
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib/langs)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib/langs)
 
 # Ensure that the generated files are built before the executable
 add_custom_target(GenerateParserFiles ALL DEPENDS ${GENERATED_FILES})
@@ -48,7 +49,7 @@ add_custom_target(GenerateParserFiles ALL DEPENDS ${GENERATED_FILES})
 
 # Add source files
 set(SOURCE_FILES
-    ./src/main.c
+    ${CMAKE_SOURCE_DIR}/src/main.c
     ${GENERATED_FILES}
 )
 

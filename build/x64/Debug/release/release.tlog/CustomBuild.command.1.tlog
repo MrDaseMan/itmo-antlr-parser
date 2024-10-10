@@ -1,0 +1,24 @@
+^A:\PROJECTS\STUDYING\SSLAB\BUILD\CMAKEFILES\33A83FB0C354C73A8FE4EA24C2F8D9F1\RELEASE.RULE
+setlocal
+cd A:\Projects\studying\SSLab\build
+if %errorlevel% neq 0 goto :cmEnd
+A:
+if %errorlevel% neq 0 goto :cmEnd
+A:\SDK\CMake\bin\cmake.exe --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\PROJECTS\STUDYING\SSLAB\CMAKELISTS.TXT
+setlocal
+A:\SDK\CMake\bin\cmake.exe -SA:/Projects/studying/SSLab -BA:/Projects/studying/SSLab/build --check-stamp-file A:/Projects/studying/SSLab/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

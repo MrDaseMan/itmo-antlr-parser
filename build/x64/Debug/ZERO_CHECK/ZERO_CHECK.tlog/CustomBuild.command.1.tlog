@@ -1,0 +1,10 @@
+^A:\PROJECTS\STUDYING\SSLAB\BUILD\CMAKEFILES\33A83FB0C354C73A8FE4EA24C2F8D9F1\GENERATE.STAMP.RULE
+setlocal
+A:\SDK\CMake\bin\cmake.exe -SA:/Projects/studying/SSLab -BA:/Projects/studying/SSLab/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file A:/Projects/studying/SSLab/build/SSLab.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
